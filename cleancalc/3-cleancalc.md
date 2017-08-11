@@ -1,6 +1,1 @@
-v.3.* -
-create a hello-world express app
-require your cleancalc into the app.js
-create a middleware that uses req.params to use the cleancalc
-res.send the result
-uses ejs'd html from v.2.*
+v.2.* - embed v.1.* in html, give it a nice user interface

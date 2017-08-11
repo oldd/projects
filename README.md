@@ -1,27 +1,27 @@
 all projects - things we expect them to make repos out of for a portfolio
 
-w1
-	precourse - no need to make
-	- cleancalc 1 - code
-w2
-	tictactoes pt 1 - code 
-	- cleancalc 2 - code 
-	battleship - markdown
-w3
-	data-structures - code
-	callbacks+datamodeling  - code 
-	*book 1 - code 
-w4
-	*book 2 (m-m) - code
+w1  
+	precourse - no need to make  
+	- cleancalc - code  
+w2  
+	tictactoes pt 1 - code   
+	- cleancalc - md   
+	battleship - md 
+w3  
+	data-structures - code  
+	callbacks+datamodeling  - code   
+	*book 1 - code   
+w4    
 	front-end twitter - code
 	tictactoes 2 - code
 	colab repo - md
 w5
 	static museum 1 (static)- code
-	static museum 2 (fs, full CRUD) - code
-	- cleancalc 3, 4 - code
+	static museum 2 (fs, full CRUD) - code, we write upload
+	- cleancalcs - code
 	tictactoes 3, 4 - code
 w6
+	*book 2 (m-m) - code
 	RESTful app of choice - md
 		*  full architecture  
 		* m-m data  
@@ -41,7 +41,7 @@ w7
 		* finishable in a week
 	voluntary group project - continued
 w8
-	- cleancalc 5
+	- cleancalc
 	tictactoe 5 - maybe not have?
 	app of choice
 	voluntary group project - continued
