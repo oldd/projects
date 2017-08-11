@@ -21,7 +21,7 @@ w5
 	- cleancalcs - code
 	tictactoes 3, 4 - code
 w6
-	*book 2 (m-m) - code
+	*book 2 (m-m) (if they haven't already)
 	RESTful app of choice - md
 		*  full architecture  
 		* m-m data  
@@ -42,7 +42,7 @@ w7
 	voluntary group project - continued
 w8
 	- cleancalc
-	tictactoe 5 - maybe not have?
+	tictactoes 4
 	app of choice
 	voluntary group project - continued
 w9
