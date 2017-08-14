@@ -1,3 +1,5 @@
+// first in first out, last in last out
+
 var queue = {
 	data: [],
 	push: function(newValue) {

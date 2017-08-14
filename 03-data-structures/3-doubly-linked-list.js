@@ -1,3 +1,5 @@
+// null <- [first node] <-> [node] <-> ... <->  [node] -> null
+
 class ListNode {
 	constructor(_value) {
 		this.previous = null;
@@ -32,6 +34,20 @@ class DoublyLinkedList {
 	removeNode(_value) {
 		// remove the node with the value _value
 		// be sure not to break your list !!
+	},
+	// a helper method, meaning it's only called within the class
+	findNext(currentNode) {
+		// logic
+		return nextNode;
+	},
+	// a helper method
+	findPrevious(currentNode) {
+		// logic
+		return previousNode;
+	},
+	findValue(value) {
+		// find the node with that value, or say it doesn't exist
+		return node;
 	}
 };
 

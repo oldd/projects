@@ -1,6 +1,5 @@
-// extend BT to have search methods.  aka be a BST
-// new nodes are sent to the right if greater than an exiting node
-// sent to the left is less than
+// extend BT to have recursive search methods. 
+// 
 
 class BST extends BT {
 	depthFirst(targetValue) {

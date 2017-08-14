@@ -30,13 +30,19 @@ class BT {
 		this.topNode = null;
 	}
 	createNode(_newValue) {
-		var newNode = new TreeNode(_newValue);
-		console.log(newNode);
 		// place this node where it belongs
-	},
+		// greater values go left, lesser to the right
+	}
 	removeNode(_value) {
 		// remove the first node with value _value
 		// be sure to reset children !!
 	}
+	findValue(value) {
+		// search the tree for that value
+		// remember lesser values are to the right, greater to the left
+		// try drawing this on paper first
+		return node
+	}
+	// any helper methods?
 }
 
