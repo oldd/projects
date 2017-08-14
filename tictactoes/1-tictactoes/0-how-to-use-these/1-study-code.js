@@ -21,7 +21,7 @@ var calcFancy = {
 	removeOperation: function(opToRemove) {
 		delete this.operations[opToRemove];
 	},
-	operate: function(opName) {
-		return // is there a fancy way to make this one-line fancy?
+	operate: function(opName, args) {
+		return this.operations[opName](...args);
 	}
 }

@@ -4,7 +4,8 @@ w1
 	precourse - no need to make  
 	- cleancalc - code  
 w2  
-	tictactoes pt 1 - code   
+	tictactoes pt 1 - code 
+	reconstruct website - md from odin  
 	- cleancalc - md   
 	battleship - md 
 w3  
@@ -15,13 +16,13 @@ w4
 	front-end twitter - code
 	tictactoes 2 - code
 	colab repo - md
+	*book finish - code
 w5
 	static museum 1 (static)- code
 	static museum 2 (fs, full CRUD) - code, we write upload
 	- cleancalcs - code
 	tictactoes 3, 4 - code
 w6
-	*book 2 (m-m) (if they haven't already)
 	RESTful app of choice - md
 		*  full architecture  
 		* m-m data  

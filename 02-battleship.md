@@ -8,7 +8,7 @@ step 2 or 1:
 	the ability to set shipState  
   
 step 3:  
-	the ability to compare guesses to shipState (console.log, or alerrs)
+	the ability to compare guesses to shipState (console.log, or alerts)
   
 step 4:  
 	the ability to see your hits/misses on the board  

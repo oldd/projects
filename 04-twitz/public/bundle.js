@@ -76318,10 +76318,10 @@ function app() {
 app.tweet = function () {
 	var new_tweet = document.getElementById('tweet_text').innerHTML;
 	if (new_tweet.length <= 140) {
-		this.T.post('statuses/update', { status: 'hello world!' }).then(function (result) {
-			alert(result.data);
-		}).catch(function (err) {
+		this.T.post('statuses/update', { status: 'hello world!' }).catch(function (err) {
 			alert('caught error', err.stack);
+		}).then(function (result) {
+			alert(result.data);
 		});
 	} else {
 		alert('tweeet toooo looonngg');
@@ -76332,12 +76332,13 @@ app.tweet = function () {
 app.search = function () {
 	console.log('dd');
 	var query = document.getElementById('query').value;
+	//  ************* formulation of query ******************
 	query += ' since:2012-12-21';
-	this.T.get('search/tweets', { q: query, count: 5 }).then(function (result) {
-		alert('data', result.data);
-		//this.view.display_search_results(result.data)
-	}).catch(function (err) {
+	this.T.get('search/tweets', { q: query, count: 5 }).catch(function (err) {
 		alert('caught error', err.stack);
+	}).then(function (result) {
+		console.log('data', result.resp);
+		//this.view.display_search_results(result.data)
 	});
 };
 

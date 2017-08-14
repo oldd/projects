@@ -1,1 +1,2 @@
-v.2.* - embed v.1.* in html, give it a nice user interface
+embed your calc object in a pure node server.  
+this will be the only pure node web app we assign
