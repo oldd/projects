@@ -55,13 +55,8 @@ var calc = {
 	*/
 };
 
-// check 'assert' syntax
-// assert(calc.operate('add', 4, 6) == 10)
-// assert(calc.operate('multiply', 4) == 40)
-// assert(calc.operate('divide', 2) == 20)
-// assert(calc.operate('subtract', 20) == 0)
 
 // -----------------------------  tests  --------------------------- //
-// write a testing suite for each method and property.
+// write a simple testing suite for each method and property.
 // comiple the suites into a meta-suite for testing your whole calc object
 

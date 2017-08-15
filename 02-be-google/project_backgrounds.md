@@ -5,7 +5,7 @@ In this project you'll clone the website of one of the most design-forward compa
 ## Steps to Victory
 
 1. Go to this old version of [apple.com](http://web.archive.org/web/20140301004610/http://www.apple.com/) and have a look around.
-2. Set up a Github repository for this project 
+2. Follow the instructions atop the [Google Homepage project](/web-development-101/html-css) to set up a Github repository for this project (of course you'll need to change the title).
 3. Create a new HTML document.
 4. Think about all the elements on the page and how they are grouped together.
 5. Lay out the basic structure of the page using empty `<div>` elements that are appropriately sized and positioned.  You may want to make their background colors different so you can see them.  Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
@@ -14,9 +14,9 @@ In this project you'll clone the website of one of the most design-forward compa
 6. Fill in and position the additional sections.  Don't worry about enclosing every paragraph of text in `<p>` tags.
 7. Push your solution to Github.
 
-### Oding Project Student Solutions
+### Student Solutions
 
-*Send Odin your solution so they can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
+*Send us your solution so we can show others! Submit a link to the Github repo with your files in it by using any of the methods listed on the [contributing page](http://github.com/TheOdinProject/curriculum/blob/master/contributing.md).  See the [Google Homepage project](/web-development-101/html-css) for examples*
 
 * Add your solution below this line!
 * [Andrew’s solution](https://github.com/andrewr224/backgrounds_project) | [View in browser](https://andrewr224.github.io/backgrounds_project/)
@@ -49,3 +49,9 @@ In this project you'll clone the website of one of the most design-forward compa
 * [Daunenok's solution](https://github.com/daunenok/apple) | [View in browser](https://daunenok.github.io/apple/)
 * [Austin's solution](https://github.com/CouchofTomato/apple-clone)
 
+
+## Additional Resources
+
+*This section contains helpful links to other content. It isn't required, so consider it supplemental for if you need to dive deeper into something*
+
+* *Add some!*
