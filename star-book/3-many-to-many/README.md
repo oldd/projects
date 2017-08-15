@@ -5,7 +5,7 @@ So far our social network is pretty dumb, it's not even a network!  Lettuce fix 
  * Profiles now have a many-to-many relationship with other profiles.  One profile can be associated to many other profiles, and vice versa. 
 
 ___    
-## User stories your app must satisfy:
+## Behavior your app must satisfy:
 on the home page a user can ...
 * view a listing of all thumbnail profiles.
 * create new thumbnail profiles from the home page.
@@ -39,6 +39,8 @@ on a profile page a user can ...
     *  send them a friend request
     *  return to 'logged in' profile
     *  return home
+
+If a thumbnail is anonymous and it's profile is deleted, delete the thumbnail.  ie. we don't want any anonymous thumbnails that point nowhere.  
 
 If a main profile has been deleted then recreated, statuses from the old profile should not point to the new profile.
 
@@ -98,7 +100,7 @@ Challenges:
             {field: 'user_2, value: 43, included: true},
             {field: 'user_1', value: 78, included: true},
             {field: 'user_2, value: 78, included: true}
-        }; // all relationships that include user 43 OR user 78.  this could be the first step in a process to determine all their mutual friends.     
+        }; // all relationships that include user 43 OR user 78.  this could be the first step in a process to determine all their mutual friendships.     
         
     var query_4 = {
             {field: 'user_1', value: 43, included: true},
@@ -108,4 +110,3 @@ Challenges:
         }; // will your function return a relationship object uniting users 43 and 78?
      ```
 
-     

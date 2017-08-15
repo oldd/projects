@@ -5,7 +5,7 @@ ___
   * Statuses and profiles in this version have a one-to-many relationship.  One profile can be associated with many statuses, but each status is connected to only one profile.
 
 ___    
-## User stories your app must satisfy:
+## Behavior your app must satisfy:
 on the home page a user can ...
 * view a listing of all thumbnail profiles.
 * create new thumbnail profiles from the home page.
@@ -24,6 +24,8 @@ on a profile page a user can ...
 * view all statuses posted from this profile
 * create a new status 
 * NOT modify or delete old statuses
+
+If a thumbnail is anonymous and it's profile is deleted, delete the thumbnail.  ie. we don't want any anonymous thumbnails that point nowhere.  
 
 If a main profile has been deleted then recreated, statuses from the old profile should not point to the new profile.
 ___

@@ -5,7 +5,7 @@ ___
 Let's make this slightly more interesting.  Users now have two profiles they can design; their main profile like before, and a thumbnail profile for the main landing page. These profiles can have different pictures, different taglines, different themes, ...  When a user comes to the home page, they see a list of thumb-nail profiles.  After clicking on a thumbnail profile the user is redirected to the complete profile.
    * Thumbnail and main profiles form a one-to-one data relation.  Each profile has only one assiciated thumbnail-profile and vice versa. 
 ___    
-## User stories your app must satisfy:
+## Behavior your app must satisfy:
 on the home page a user can ...
 * view a listing of all thumbnail profiles.
 * create new thumbnail profiles from the home page.
