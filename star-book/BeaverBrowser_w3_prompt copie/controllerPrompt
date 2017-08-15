@@ -1,0 +1,15 @@
+CONTROLLER.JS:  manipulates *MODEL and *VIEW.  all HTML buttons call a method in CONTROLLER
+	HANDLERS:  object
+		METHODS:
+			DISPLAY*:
+				ARGS:  1
+					ID: number
+						PURPOSE: to access the correct * from *MODEL
+				RETURNS:  undefined
+				BEHAVIOR:  retrieves the right * from *MODEL and calls the *VIEW to render that profile
+			ADD*:
+				ARGS: depends on profile type
+					PURPOSE: passing in all required fields for a new profile 
+				RETURNS:  undefined
+				BEHAVIOR:  calls *MODEL to add a new profile with the new info.  calls *VIEW to redraw the home page.
+

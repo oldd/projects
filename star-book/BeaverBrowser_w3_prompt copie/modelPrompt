@@ -1,0 +1,21 @@
+MODEL.JS:  all functionality connected to storing, accessing, modifying beavers
+  *  MODEL:  an object 
+    *  PROPERTIES: 1
+      *  DB:  array or object to contain profile records
+    *  METHODS: 4
+      *  CREATE:
+        *  ARGS: 1
+        *  RETURNS: undefined.  or a success/failure message if you are using schema validation
+        *  BEHAVIOR:  uses the arguments to create a new beaver object which is saved into 'beavers' array.  tracked is default set to yes.  
+      *  READ: 
+        *  ARGS: 1
+        *  RETURNS:
+        *  BEHAVIOR: 
+      *  UPDATE:
+        *  ARGS: 2
+        *  RETURNS:
+        *  BEHAVIOR: 
+      *  DELETE:
+        *  ARGS: 
+        *  RETURNS:
+        *  BEHAVIOR:       

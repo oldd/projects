@@ -1,5 +1,5 @@
 choose a partner and a simple project.  
 build a 'perfect repo' for that project
 
-link to odin's pair-programming stuff
-and my stuff on creating repos
+
+https://www.quora.com/When-programming-with-a-team-what-are-some-ground-rules-that-should-be-used

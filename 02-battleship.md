@@ -21,3 +21,6 @@ step 6:
   
 step 7 and beyond:
 	enable 2-player games
+
+
+developing from views backwards
