@@ -47,6 +47,7 @@ Inside your project folder, create your index.html file
 + Finally, put in the footer, which should be very similar to the top navbar.
 + In general, do as much on your own as you can before relying on the developer tools (or viewing the page's source code) to help you along.
 + Push your project to Github using the instructions above!
+4. Challenge: rebuild the page using Bootstrap!
 
 Difficult Version (optional): Build the Google.com search results page
 ---
@@ -72,4 +73,23 @@ There are a couple of ways to go about doing this, but the simplest is this:
 + go to your github repo on the web and click the Settings button
 + scroll down until you find the GitHub Pages section
 + change the Source from none to master branch and click Save.
-+ it may take a few minutes (the GitHub website says up to 10) but your project should be accessible over the web from your-gh-username.github.io/your-github-repo-name (obviously substituting your own details in the link)
++ it may take a few minutes (the GitHub website says up to 10) but your project should be accessible over the web from your-gh-username.github.io/your-github-repo-name (obviously substituting your own details in the link).
+
+Project DOM
+===
+
+Now that you have your flashy Google or Apple web site clone, it's time to add some functionality to it.
+
+Once you have a solid enough grasp of DOM manipulation, try the following challenges:
+
++ clicking anywhere on the background, should change the background image or color
++ hovering over the main title should change its size
++ for every link: clicking should trigger an alert stating that you clicked that link
++ try to submit a form. By default the submission is send to the back-end, but in this case you'll need to "hijack" the submission somehow.
++ have a div ( or another block element) dissapear and reappear by clicking a button/hovering over it
+  + challenge: add an animation (like fade)
++ challenge: by using only JS clicking on the search button (or whatever is equilavent on the Apple page) should empty the home page and display a page with search results (hard coded).
++ challenge: create a user login form. When a user logs in, his/her/its name should be displayed somewhere in the navbar + the option to log out. The user's login info should somehow be saved in the browser, even after refreshing the page! (hint: look into HTML5 local storage...). Similarly, when a user logs out, the user's login info should be deleted and the navbar should have the option to log in.
++ Challenge: you could use HTML5 GeoLocation to display your current location. This will return geographical coordinates. If you want an even bigger challenge, you could include the Google Maps API to have your current address displaye in human readible form.
++ Challenge: try to make a "real" Google search. The submit form should take everyting you've put in the input and redirect it to the real google search.  
+  + Even more challengy: use ajax to retrieve the data!
