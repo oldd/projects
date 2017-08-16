@@ -1,5 +1,9 @@
-// [first node] -> [node] -> [node] -> ... -> null
-
+# LINKED LIST
+___
+![](http://xenomachina.com/images/linked-list.png)
+___
+### Starter Code: 
+```javascript
 class ListNode {
 	constructor(_value) {
 		this.next = null;
@@ -38,7 +42,9 @@ class LinkedList {
 		return node;
 	}
 };
-
-// 1:  extend LinkedList to create a stack
-
-// 2:  extend LinkedList to create a queue
+```
+___
+### Assignments:
+0. make it work
+1. extend LinkedList to create a stack
+2.  extend LinkedList to create a queue

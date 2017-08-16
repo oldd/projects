@@ -1,0 +1,2 @@
+# Choose a partner and collaboratively build a perfect repo for a simple model object.  
+Don't worry about the code, you can copy-past your old methods.  The objective is to divide the development process between you and your partner, then to effectivly collaborate on github to make a final repo.

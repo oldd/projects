@@ -1,4 +1,13 @@
-class BTnode {
+# BINARY SEARCH TREE
+New nodes are placed according to value.  
+The left child of a node will always have a lesser value.
+The right child will always have a greater value.
+___
+![](https://www.cs.cmu.edu/~adamchik/15-121/lectures/Trees/pix/insertEx.bmp)
+___
+### Starter Code: 
+``` javascript
+class BSTnode {
 	constructor(_value) {
 		this.value = _value;
 		this.rightChild = null;
@@ -25,13 +34,13 @@ class BTnode {
 };
 
 // each parent can only have two children
-class BT {
+class BST {
 	constructor() {
 		this.topNode = null;
 	}
 	addNode(_newValue) {
 		// place this node where it belongs
-		// greater values go left, lesser to the right
+		// greater values go right, lesser to the left
 	}
 	removeNode(_value) {
 		// remove the first node with value _value
@@ -45,4 +54,8 @@ class BT {
 	}
 	// any helper methods?
 };
+```
+___
+### Assignments:
+0. Make it work.
 

@@ -1,22 +1,20 @@
-# QUEUE
+# STACK
 ___
-![](https://t1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/1OLd/image/3UgTwaW2pgZ_weTcj2zsW94K3mw.png)
+![](http://static.flickr.com/1350/1490540282_c96252968c.jpg)
 ___
 ### Starter Code:
 ```javascript
-var queue = {
+var stack = {
 	data: [],
 	push: function(newValue) {
 		this.data.push(newValue);
 	},
 	pop: function() {
-		return // ? i couldn't figure this one out.  your turn
+		return this.data.pop();
 	}
 };
 ```
 ___
-### Assignments: 
-
-0. make it work
+### Assignments:
 1.  rewrite this using a class instead of an object literal
 2.  refactor your class to use an object instead of an array

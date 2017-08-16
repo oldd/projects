@@ -1,10 +1,13 @@
-
-// an incomplete node has 1 child. 0 or 2 children is compelte
-// complete trees will: 
-//		- have at most 1 incomplete node.
-// 		- fill breadth-first from left to right
-
-
+# COMLETE TREE
+* An incomplete node has 1 child. 0 or 2 children is compelte
+* Complete trees will: 
+  - Have at most 1 incomplete node.
+  - Fill breadth-first from left to right, regardless of value.
+___
+![](http://web.cecs.pdx.edu/~sheard/course/Cs163/Graphics/CompleteBinary.jpg)
+___
+### Starter Code:
+```javascript
 class CTnode {
 	constructor(_value) {
 		this.value = _value;
@@ -66,3 +69,7 @@ class CT {
 	}
 	// any helper methods?
 };
+```
+___
+### Assignments:
+0. Make it work.

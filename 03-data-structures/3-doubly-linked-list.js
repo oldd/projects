@@ -1,5 +1,9 @@
-// null <- [first node] <-> [node] <-> ... <->  [node] -> null
-
+# DOUBLY LINKED LIST
+___
+![](http://3.bp.blogspot.com/-dIV-5j1EY7A/TyLkRUm7WwI/AAAAAAAAARk/h7L55KuCb60/s1600/c+program+of+doubly+linked+list-+delete+-+inser.png) 
+___
+### Starter Code:
+```javascript
 class ListNode {
 	constructor(_value) {
 		this.previous = null;
@@ -50,7 +54,9 @@ class DoublyLinkedList {
 		return node;
 	}
 };
-
-// 1:  extend DoublyLinkedList to create a stack
-
-// 2:  extend DoublyLinkedList to create a queue
+```
+___
+### Assignments:
+0. make it work
+1. extend DoublyLinkedList to create a stack
+2.  extend DoublyLinkedList to create a queue
