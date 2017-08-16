@@ -12,7 +12,8 @@ We've done that for you, all you have to do is build them one at a time.
 
 ___
 ### User Stories  
-Users can ...  
+Users can ...   
+  
 0. see an empty board and a header  
 1. place ships on board
 2. hide ships and begin game
