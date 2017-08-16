@@ -1,11 +1,10 @@
+# CLEANCALC*
+
 This series of projects is to help you understand the difference between frameworks, architecture, and application logic.  
   
-every step of cleancalc has you embedding the same exact application logic in a variety of frameworks and architectures.  
+Every step of cleancalc has you embedding the exact same application logic (the calc object from step 1) in a variety of frameworks and architectures.  
   
-despite the growth in project complexity, the applications are all the same from a user's point of view.  
-  
-Each iteration is supporting the same user interactions with the same data.  
+Despite the growth in project complexity, the applications are all the same from a user's point of view -  Users can add, subtract, multiply, and divide.  They are also identical from a business-logic point of view -  The same exact calc object is used in each step.
   
 
-
-It is called cleancalc in reference to the CLEAN software archetecture.      
+*'Cleancalc' is a reference to the CLEAN architecture principle.  We'll discuss it specifically in week 9.

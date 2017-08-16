@@ -1,1 +1,4 @@
-v.2.* - embed final v.1 in html, give it a nice user interface
+# CLEANCALC v.2.* - Embedded in HTML
+Build a nice HTML frontend for your calc object from step 1.  
+  
+Don't forget to complete this version's presence on the repo!

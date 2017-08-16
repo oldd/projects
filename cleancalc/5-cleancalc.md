@@ -1,1 +1,7 @@
-v.4.* - get/posts, req.body, full frontend
+# CLENACALC v.5.* - Full Frontend
+Version 5 will ... 
+* use 'express.Router'
+* use get handlers
+* use req.body
+* use EJS
+* be pretty
