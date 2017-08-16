@@ -1,5 +1,5 @@
-var data_model_array = {
-	db: // one of your data structures
+var data_model = {
+	db: // array or object, your call
 	create(new_object, callback) {
 		// somehow associates an object with a new id
 		// adds the object to db

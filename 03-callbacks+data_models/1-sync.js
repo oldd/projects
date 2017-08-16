@@ -1,7 +1,9 @@
 var data_model_array = {
 	db: // array
 	create(new_object) {
-		// somehow associates an object with a new id
+		// assigns a unique ID to each object
+		//   once an ID has been used for one object, it can never be used for another
+		//   once an object has been given an ID, it can never be given a new one
 		// adds the object to db
 	},
 	read(entry_id) {

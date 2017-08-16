@@ -59,4 +59,13 @@ w12
 
 
 
+cleancalc
+	prettier readmes
+tictac toes
+	prettier readmes
+colab-repo
+	readme
+
+twitz
+	almost everything
 

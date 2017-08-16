@@ -22,14 +22,14 @@ class BTnode {
 	getValue() {
 		return this.value;
 	}
-}
+};
 
 // each parent can only have two children
 class BT {
 	constructor() {
 		this.topNode = null;
 	}
-	createNode(_newValue) {
+	addNode(_newValue) {
 		// place this node where it belongs
 		// greater values go left, lesser to the right
 	}
@@ -44,5 +44,5 @@ class BT {
 		return node
 	}
 	// any helper methods?
-}
+};
 

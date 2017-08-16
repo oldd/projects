@@ -1,5 +1,5 @@
-var data_model_array = {
-	db: // array or object, your call
+var data_model = {
+	db: // one of your data structures
 	create(new_object, callback) {
 		// somehow associates an object with a new id
 		// adds the object to db
@@ -13,5 +13,9 @@ var data_model_array = {
 	remove(entry_id, callback) {
 		// remove object with said id
 		// this operation must not change other objects' id's
+	},
+	validate(object) {
+		// this is what's called a 'helper method'.
+		// it is only used by the object's methods
 	}
 };

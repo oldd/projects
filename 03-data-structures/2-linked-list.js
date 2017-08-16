@@ -39,5 +39,6 @@ class LinkedList {
 	}
 };
 
-//challenge 1:  extend LinkedList to create a stack
-//challenge 2:  extend LinkedList to create a queue
+// 1:  extend LinkedList to create a stack
+
+// 2:  extend LinkedList to create a queue

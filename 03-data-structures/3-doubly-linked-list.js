@@ -51,5 +51,6 @@ class DoublyLinkedList {
 	}
 };
 
-//challenge 1:  extend DoublyLinkedList to create a stack
-//challenge 2:  extend DoublyLinkedList to create a queue
+// 1:  extend DoublyLinkedList to create a stack
+
+// 2:  extend DoublyLinkedList to create a queue
