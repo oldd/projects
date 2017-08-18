@@ -13,3 +13,4 @@ This repo contains (hopefully) enough resources to get you started:
     * Deployment schedule
     * Specs vs. Documentation
 
+this is blurring with git-hub
