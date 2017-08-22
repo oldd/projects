@@ -27,28 +27,32 @@ Take a closer look at the tools we'll be using:
 * [gulp](https://css-tricks.com/gulp-for-beginners/)  
 
 ___
-### Assignments:
-For this project we have provided you with finished code, your job is to understand, tweak, and document the code according to the steps below:
-1. Open the project directory in terminal and type 'gulp watch'. Open 'index.html' in your browser.
+### Assignment 
+Replicate the app from scratch:
+1. Write the list of user stories this app supports.  
+2. Put our code aside and build this app again from scratch implementing one user story at a time. Don't worry about making your code match ours - _the app is about the stories not the implementation_  
+3. Complete a GH repo to showcase your lovely work.
+
+Below are some suggested steps for studying the working code we've provided:
+* Open the project directory in terminal and type 'gulp watch'. Open 'index.html' in your browser.
     * you will get an error.  remember what it was, you'll fix it in step 2.
-2. Read through gulpfile.js:
+* Read through gulpfile.js:
     * the error from step 1 comes from 'gulpfile.js', where? fix it.
     * why does gulpfile need babelify?
     * what happens if you run 'gulp js' in terminal?
     * or if you run 'gulp default'?
     * right now, app.js has to be in 'src'.  modify the application (directory structure and gulpfile) so app.js has to be in a folder called 'source'.
-3. Read and document the view object.
-4. Read and document app.js (in this order):
+* Read and document the view object.
+* Read and document app.js (in this order):
     1. videoSearch, getVideoDetail
     2. setupHandlers
     3. app
-5. Read the source code for 'youtube-api-search'
+* Read the source code for 'youtube-api-search'
     1. open node_modules
     2. scroll all the way down to 'youtube-api-search'
     3. read 'index.js'
     4. document this module
-6. Write the list of user stories this app supports.  Put our code aside and build this app again from scratch, implementing one user story at a time. Don't worry about making your code match ours - _the app is about the stories not the implementation!_  
-Don't forget to create a GH repo to showcase your project. 
+
 
 ___
 
