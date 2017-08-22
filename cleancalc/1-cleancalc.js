@@ -1,6 +1,4 @@
-// find out how to pass in args from terminal
-
-// -------------------  v.1.*  --------------------- //
+// -------------------  v.1.1  --------------------- //
 
 
 var calc = {
@@ -55,8 +53,12 @@ var calc = {
 	*/
 };
 
-
-// -----------------------------  tests  --------------------------- //
+// ----------------------------  tests ---------------------------- //
 // write a simple testing suite for each method and property.
 // comiple the suites into a meta-suite for testing your whole calc object
+
+// ---------------------------- v.1.2 ------------------------------ //
+
+// modify the calculator to take commandline arguments: https://blog.kevinchisholm.com/tag/process-argv/
+
 
