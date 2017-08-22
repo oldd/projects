@@ -47,12 +47,13 @@ For this project we have provided you with finished code, your job is to underst
     2. scroll all the way down to 'youtube-api-search'
     3. read 'index.js'
     4. document this module
+6. Write the list of user stories this app supports.  Put our code aside and build this app again from scratch, implementing one user story at a time. Don't worry about making your code match ours - _the app is about the stories not the implementation!_  
+Don't forget to create a GH repo to showcase your project. 
 
 ___
 
 Challenges: 
 * Implement auto-complete for previous searches using a model object
-* Recreate the app without referencing our code
 * Replace all callbacks with promises
 
 
