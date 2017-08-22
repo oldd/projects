@@ -16,4 +16,7 @@ Complete the 4 files in this repo:
 2. Refactor your favorite synchronous model to be asynchronous (replacing return statements with callback executions).
 3. Refactor your model object to use type-validation.  It will no longer save objects to it's DB unless that object matches the schema.
 4. Refactor your model object to use one of your custom data-structures instead of an array or object.
- 
+ ___
+### N L S 
+
+Check out this impressive [model class](https://github.com/jankeLearning/content-code/tree/master/Week%2004/impressive-model) built by [Marilena](https://github.com/maridyr).
