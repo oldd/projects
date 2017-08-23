@@ -1,7 +1,6 @@
 # Youtube Wannabe
 
 The objective of this project is to drop a few advanced techniques into one app.  It includes: 
-* Classes
 * Asynchronous programming
     * API calls
     * callbacks
@@ -10,6 +9,32 @@ The objective of this project is to drop a few advanced techniques into one app.
 * task runners
 * es6 -> es5 conversion
 * closure, execution context
+* Classes
+___
+
+### Third-Party APIs
+
+At it's heart, an API isn't very different from a website:  
+1. A user sends a request over the internet 
+2. A server recieves and processes the request  
+3. The server sends a response containing what the user asked for, or an error
+4. The user does something with that response
+
+The main difference between an API and a website is what that response contains.  With a website, that response will carry HTML, JS, CSS, images ... Everything needed to render and interact with a website.  With an API, that response will contain pure data, typically in [JSON format](http://www.json.org).  
+
+What does this mean for a developer?  It means you can access all of YouTube's videos without going to their website!  It also means you can do it from your own app without having to refresh the browser if you use __asynchronous API calls__.  The app sends a request to the API, waits for the data to return, and only then completes the task which needs that data. 
+
+In this app it means: 
+1. A request is sent to the YouTube API using the "youtube-api-search" module. 
+2. YouTube processess the request - valid api key? what's the query? ...
+3. YouTube sends a response carrying either the video or an error
+4. Once the response arrives, your app executes the callback that was waiting for the videos.  ie. renders the search results.
+
+
+To work with an API, you will usually need to register your application with the API provider (and get an API key to identify yourself with when making a request).
+
+That's enough info for now, we'll look much closer at API's in week 8 when we build our won. If you want to learn more about using the YouTube API check out this [codeacademy course](http://www.codecademy.com/tracks/youtube).
+
 ___
 ### Build Scripts - automating with a task runner
 So far we haven't seen any difference between the source code we write and the code our applications run.  In the real world there usually is, and in this application there is.  
@@ -30,6 +55,7 @@ ___
 ### Assignment 
 Replicate the app from scratch:
 1. Write the list of user stories this app supports.  
+2. Get your own [YouTube API key](https://developers.google.com/youtube/v3/getting-started)
 2. Put our code aside and build this app again from scratch implementing one user story at a time. Don't worry about making your code match ours - _the app is about the stories not the implementation_  
 3. Complete a GH repo to showcase your lovely work.
 
@@ -59,5 +85,6 @@ ___
 Challenges: 
 * Implement auto-complete for previous searches using a model object
 * Replace all callbacks with promises
+
 
 
