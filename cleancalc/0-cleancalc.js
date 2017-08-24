@@ -1,5 +1,5 @@
-// this is the functions and variables
-// that will become props and methods in your cleancalc
+// this is the functions and variables that will become props and methods in your cleancalc
+// this file uses'procedural programming' - writing things in the order you want them to happen
 
 // understand this file before moving on to cleancalc 1
 
