@@ -50,6 +50,7 @@ Enter 'Task Runners' - you can think of these as next-level 'nodemon'. Nodemon r
 Take a closer look at the tools we'll be using: 
 * [babelify and browserify](http://egorsmirnov.me/2015/05/25/browserify-babelify-and-es6.html)
 * [gulp](https://css-tricks.com/gulp-for-beginners/)  
+* Our own [lesson](https://github.com/jankeLearning/content-md/blob/master/tools/04-packaging.md) breaking down the script you'll use for this project.
 
 ___
 ### Assignment 

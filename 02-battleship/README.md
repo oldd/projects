@@ -24,8 +24,8 @@ Users can ...
 7. know when a single ship is sunk
 
 You are to develop these stories in order using the front-backwards approach.
-At the end, you should have a 'perfect repo' with a live demo of your most recent version hosted on gh-pages.
+At the end, you should have a 'perfect repo' with a live demo of your most recent version hosted on gh-pages.  Each story will be a version, don't move on to the next version until the one you're working on is stable.
 ___
 ## Implementation
 
-This project is suspiciously similar to 'tictactoes'.  Consider building it similarly.
+This project is suspiciously similar to 'tictactoes'.  Consider using it as a starting point.

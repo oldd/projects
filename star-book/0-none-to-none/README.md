@@ -19,4 +19,6 @@ ___
 ## Implementation:
 
 * Your app will be run out of a single HTML page.  Navigation will be achieved by redrawing the body.
-* **_We have provided you with specs to get started on your JS._**
+* We have provided you with specs to get started on your JS.
+* Dev trick - extend the view class to work for the terminal and build test scripts that simulate a user.
+    * We will go over this technique in code review.
