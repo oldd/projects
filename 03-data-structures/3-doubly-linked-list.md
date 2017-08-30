@@ -60,3 +60,7 @@ ___
 0. make it work
 1. extend DoublyLinkedList to create a stack
 2.  extend DoublyLinkedList to create a queue
+___  
+### Resources:  
+* [linked lists](http://www.thatjsdude.com/interview/linkedList.html)  
+* [another linked list](http://js-algorithms.tutorialhorizon.com)  

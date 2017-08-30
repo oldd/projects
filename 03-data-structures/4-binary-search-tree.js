@@ -59,3 +59,6 @@ ___
 ### Assignments:
 0. Make it work.
 
+___ 
+### Resources  
+* [bst](https://khan4019.github.io/front-end-Interview-Questions/bst.html)
