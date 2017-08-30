@@ -62,3 +62,5 @@ ___
 ___ 
 ### Resources  
 * [bst](https://khan4019.github.io/front-end-Interview-Questions/bst.html)
+    	https://github.com/tivrama/DataStructures
+	    https://github.com/mgechev/javascript-algorithms/tree/master/src/data-structures
