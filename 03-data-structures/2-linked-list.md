@@ -4,22 +4,39 @@ ___
 ___
 ### Starter Code: 
 ```javascript
-class ListNode {
-	constructor(_value) {
-		this.next = null;
-		this.value = _value;
-	},
-	getNext() {
+function listNode(value) {
+	var protectedProperties {
+		next: null,
+		value: value
+	};
+
+	function getNext() {
 		return this.next;
-	},
-	setNext(nextNode) {
+	}.bind(protected_values);
+
+	function setNext(nextNode) {
 		this.next = nextNode;
-	},
-	getValue() {
+	}.bind(protected_values);
+
+	function getValue() {
 		return this.value;
-	}
+	}.bind(protected_values);
+
+	function getValue() {
+		return this.value;
+	}.bind(protected_values);
+
+	return {
+		value,
+		next: null,
+		getNext,
+		setNext,
+		getValue,
+		setValue
+	};
 };
 
+// convert this class to a factory
 class LinkedList {
 	constructor() {
 		this.firstNode = null;

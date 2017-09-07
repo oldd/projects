@@ -16,5 +16,5 @@ var stack = {
 ```
 ___
 ### Assignments:
-1.  rewrite this using a class instead of an object literal
-2.  refactor your class to use an object instead of an array
+1.  rewrite this using a factory instead of an object literal
+2.  refactor your factory to use an object instead of an array

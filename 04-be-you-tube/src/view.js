@@ -1,9 +1,6 @@
-class View {
-  constructor(container) {
-    this.container = container;
-  }
-
-  renderHome() {
+function view(container) {
+  
+  function renderHome() {
     var header = document.createElement("h1");
     var searchForm = document.createElement("form");
     var searchInput = document.createElement("input");
@@ -26,9 +23,9 @@ class View {
 
     this.container.appendChild(header);
     this.container.appendChild(searchForm);
-  }
+  };
 
-  renderVideoList(videos) {
+  function renderVideoList(videos) {
     if (document.getElementById("videoListDiv")) {
       this.clearPage();
       this.renderHome();
@@ -71,9 +68,9 @@ class View {
     });
     videoListDiv.appendChild(videoList);
     this.container.appendChild(videoListDiv);
-  }
+  };
 
-  renderVideoDetail(videoId) {
+  function renderVideoDetail(videoId) {
     if (document.getElementById("video-detail")) {
       this.container.removeChild(document.getElementById("video-detail"));
     }
@@ -100,16 +97,24 @@ class View {
     videoHeader.appendChild(iframe);
 
     this.container.appendChild(videoDetail);
-  }
+  };
 
-  clearPage() {
+  function clearPage() {
     console.log("clearing page");
     var rootDiv = document.getElementById("root");
     console.log(rootDiv);
     while (rootDiv.firstChild) {
       rootDiv.removeChild(rootDiv.firstChild);
-    }
-  }
+    };
+  };
+
+  return {
+    container,
+    renderHome,
+    renderVideoList,
+    renderVideoDetail,
+    clearPage
+  };
 }
 
-module.exports = View;
+module.exports = view;

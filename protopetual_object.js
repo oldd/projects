@@ -61,3 +61,7 @@ var topject = {
 			delete this.children[_name];
 		}
 };
+
+
+
+// http://www.dofactory.com/javascript/composite-design-pattern

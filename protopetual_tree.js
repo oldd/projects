@@ -131,3 +131,6 @@ function protopetual_tree(_name) {
 
 	// // any node can incite it's tree to copy itself
 	// function mitose() {};
+
+
+http://www.dofactory.com/javascript/composite-design-pattern
