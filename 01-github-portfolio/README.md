@@ -9,4 +9,5 @@ The finished project will include:
     * Cleancalc through version 2
 ___
 ### Example
-Check out [elium-student](https://elium-student.github.io) for an idea of what we're looking for.  It's ugly, but all the elements are there.
+Check out [elium-student](https://elium-student.github.io) for an idea of what we're looking for.  It's ugly, but all the elements are there.  
+[more info and some more examples](https://github.com/jankeLearning/content-md/tree/master/github)
