@@ -26,7 +26,14 @@ We've selected some of the most basic and useful data structures for you to repl
 
 ---
 _**Extra Super Challenge**_:
-* Study Loupe and replicate the JS runtime using custom data structures and a 'Javascript' class.
+* Study Loupe and replicate the JS runtime using custom data structures and a 'Javascript' class.  
+--- 
+## Resources  
+    
+* [better than i can do](https://github.com/tivrama/DataStructures)
+* [Some examples for this project](https://github.com/nzakas/computer-science-in-javascript/tree/master/data-structures)  
+* [examples, this project and beyond](https://github.com/mgechev/javascript-algorithms/tree/master/src/data-structures)
+
 
 
 
