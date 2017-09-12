@@ -1,38 +1,26 @@
-# LINKED LIST
+# LINKED LIST with proto 
 ___
 ![](http://xenomachina.com/images/linked-list.png)
 ___
 ### Starter Code: 
 ```javascript
-function listNode(value) {
-	var protected_values = {
-		next: null,
-		value: value
-	};
-
-	function getNext() {
-		return this.next;
-	}.bind(protected_values);
-
-	function setNext(nextNode) {
-		this.next = nextNode;
-	}.bind(protected_values);
-
-	function getValue() {
-		return this.value;
-	}.bind(protected_values);
-
-	function getValue() {
-		return this.value;
-	}.bind(protected_values);
-
-	return {
-		getNext,
-		setNext,
-		getValue,
-		setValue
-	};
+function listNode(_value) {
+	var new_node = Object.create(listNode.prototype);
+	new_node.value = _value;
+	return new_node;
 };
+listNode.prototype.getNext = function() {
+									return this.next;
+								};
+listNode.prototype.setNext = function(nextNode) {
+									this.next = nextNode;
+								};
+listNode.prototype.getValue = function() {
+									return this.value;
+								};
+listNode.prototype.setValue = function(newValue) {
+									this.value = newValue;
+								};
 
 function linkedList() {
 	function addNode(_value) {

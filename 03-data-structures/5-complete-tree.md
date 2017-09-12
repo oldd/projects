@@ -8,65 +8,78 @@ ___
 ___
 ### Starter Code:
 ```javascript
-class CTnode {
-	constructor(_value) {
-		this.value = _value;
-		this.rightChild = null;
-		this.leftChild = null;
-		this.complete = true;
-	} 
+function CTnode()  {
+	var protected_values = {
+		value: null;
+		rightChild: null;
+		leftChild: null;
+	}; 
+
 	setRightChild(_Rchild) {
 		this.rightChild =  _Rchild;
-	}
+	}.bind(protected_values);
+
 	setLeftChild(_Lchild) {
 		this.leftChild =  _Lchild;
-	}
+	}.bind(protected_values);
+
 	getRightChild() {
 		return  this.rightChild;
-	}
+	}.bind(protected_values);
+
 	getLeftChild() {
 		return this.leftChild;
-	}
+	}.bind(protected_values);
+
 	setValue(_value) {
 		this.value =  _value;
-	}
+	}.bind(protected_values);
+
 	getValue() {
 		return this.value;
-	}
-	getComplete() {
-		return this.complete;
-	}
-	toggleComplete() {
-		!this.complete
-	}
+	}.bind(protected_values);
+
+	isComplete() {
+		// figure this out
+	}.bind(protected_values);
+
+	return {
+			setRightChild,
+			setLeftChild,
+			getRightChild,
+			getLeftChild,
+			setValue,
+			getValue,
+			isComplete
+		};
+}
 };
 
 // each parent can only have two children
-class CT {
-	constructor() {
-		this.topNode = null;
-	}
+var CT =  {
+	topNode: null;
+	
 	addNode(_newValue) {
 		// place this node where it belongs
 		// this will require 
 		// 		- finding the depth of the left-most leaf
 		//		- a depth first search to find the first node with only one child
 		// 		- a recursive search to find the first incomplete leaf, if there is one
-	}
+	};
 	removeNode(_value) {
 		// remove the first node with value = _value
 		// be sure to reset children !!
-	}
+	};
 	findValue(value, search_type) {
 		// search the tree for that value using the indiated search type
 		return node
-	}
+	};
 	depthFirst(_value) {
 		// depth-first recursive search of the tree for that value
-	}
+	};
 	breadthFirst(_value) {
 		// breadth-first recursive search for _value
-	}
+	};
 	// any helper methods?
 };
 ```

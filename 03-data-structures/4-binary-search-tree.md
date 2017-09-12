@@ -7,45 +7,60 @@ ___
 ___
 ### Starter Code: 
 ``` javascript
-class BSTnode {
-	constructor(_value) {
-		this.value = _value;
-		this.rightChild = null;
-		this.leftChild = null;
-	} 
+function BSTnode() {
+	var protected_values = {
+		value: null,
+		rightChild: null,
+		leftChild: null
+	}; 
+	
 	setRightChild(_Rchild) {
 		this.rightChild =  _Rchild;
-	}
+	}.bind(protected_values);
+
 	setLeftChild(_Lchild) {
 		this.leftChild =  _Lchild;
-	}
+	}.bind(protected_values);
+
 	getRightChild() {
 		return  this.rightChild;
-	}
+	}.bind(protected_values);
+
 	getLeftChild() {
 		return this.leftChild;
-	}
+	}.bind(protected_values);
+
 	setValue(_value) {
 		this.value =  _value;
-	}
+	}.bind(protected_values);
+
 	getValue() {
 		return this.value;
-	}
+	}.bind(protected_values);
+
+	return {
+		setRightChild,
+		setLeftChild,
+		getRightChild,
+		getLeftChild,
+		setValue,
+		getValue
+	};
 };
 
 // each parent can only have two children
-class BST {
-	constructor() {
-		this.topNode = null;
-	}
+var BST = {
+	
+	topNode: null;
+	
 	addNode(_newValue) {
 		// place this node where it belongs
 		// greater values go right, lesser to the left
-	}
+	}; 
 	removeNode(_value) {
 		// remove the first node with value _value
 		// be sure to reset children !!
-	}
+	};
 	findValue(value) {
 		// search the tree for that value
 		// remember lesser values are to the right, greater to the left

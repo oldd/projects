@@ -3,56 +3,78 @@ ___
 ![](http://3.bp.blogspot.com/-dIV-5j1EY7A/TyLkRUm7WwI/AAAAAAAAARk/h7L55KuCb60/s1600/c+program+of+doubly+linked+list-+delete+-+inser.png) 
 ___
 ### Starter Code:
-```javascript
-class ListNode {
-	constructor(_value) {
-		this.previous = null;
-		this.next = null;
-		this.value = _value;s
-	},
-	getNext() {
+
+function listNode(value) {
+	var protected_values = {
+		next: null,
+		value: value
+	};
+
+	function getNext() {
 		return this.next;
-	},
-	setNext(nextNode) {
+	}.bind(protected_values);
+
+	function setNext(nextNode) {
 		this.next = nextNode;
-	},
-	getPrevious() {
+	}.bind(protected_values);
+
+	function getNext() {
 		return this.next;
-	},
-	setPrevious(previousNode) {
-		this.previous = previousNode;
-	},
-	getValue() {
+	}.bind(protected_values);
+
+	function setNext(nextNode) {
+		this.next = nextNode;
+	}.bind(protected_values);
+
+	function getValue() {
 		return this.value;
-	}
+	}.bind(protected_values);
+
+	function getValue() {
+		return this.value;
+	}.bind(protected_values);
+
+	return {
+		getNext,
+		setNext,
+		getPrevious,
+		setPrevious,
+		getValue,
+		setValue
+	};
 };
 
-class DoublyLinkedList {
-	constructor() {
-		this.firstNode = null;
-	},
-	addNode(_value) {
+function doublyLinkedList() {
+	function addNode(_value) {
 		var newNode = new ListNode(_value);
 		// place this node where it belongs
-	},
-	removeNode(_value) {
+	};
+	function removeNode(_value) {
 		// remove the node with the value _value
 		// be sure not to break your list !!
-	},
+	};
 	// a helper method, meaning it's only called within the class
-	findNext(currentNode) {
+	function findNext(currentNode) {
 		// logic
 		return nextNode;
-	},
+	};
 	// a helper method
-	findPrevious(currentNode) {
+	function findPrevious(currentNode) {
 		// logic
 		return previousNode;
-	},
-	findValue(value) {
+	};
+	function findValue(value) {
 		// find the node with that value, or say it doesn't exist
 		return node;
-	}
+	};
+	return {
+			firstNode: null,
+			addNode,
+			removeNode,
+			findNext,
+			findPrevious,
+			findValue
+		};
 };
 ```
 ___
