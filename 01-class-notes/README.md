@@ -1,0 +1,1 @@
+manage a repo of class notes.  branches, releases, wiki, whatever
