@@ -3,8 +3,6 @@ duplication between drive and github
 react exercises	
 	https://drive.google.com/drive/u/2/folders/0BwUuQZA1mzK5YjdwRkJMQktUalE
 
-see banksies
-
 react setup
 	https://drive.google.com/drive/u/2/folders/0B2WwjFzRpOSHSHAtRTREVTFFRk0
 
