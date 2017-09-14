@@ -10,4 +10,6 @@ this version will have
 * css  
 * JS for the dom  
 * The EXACT same calc object as before  
-* a test or two
+* a test or two  
+* live gh-pages demo  
+* link in your portfolio gh-pages
