@@ -4,7 +4,7 @@
 // understand this file before moving on to cleancalc 1
 
 
-// -------------------  v.0.0  --------------------- //
+// -------------------  version the first  --------------------- //
 
 var lastResult = 0000;
 
@@ -30,7 +30,7 @@ lastResult = add(5, lastResult);
 lastResult = multiply(3,2);
 
 
-// -------------------  v.0.1  --------------------- //
+// -------------------  version the second  --------------------- //
 
 lastResult = 0000;
 
@@ -43,7 +43,7 @@ lastResult = operateIntermediary(add, 5, lastResult);
 lastResult = operateIntermediary(multiply, 3,2);
 
 
-// -------------------  v.0.2  --------------------- //
+// -------------------  version the third  --------------------- //
 
 lastResult = 0000;
 
