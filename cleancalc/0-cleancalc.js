@@ -38,9 +38,9 @@ function operateIntermediary(operation, arg1, arg2) {
 	return operation(arg1, arg2);
 };
 
-lastResult = operate(add, 2, 4);
-lastResult = operate(add, 5, lastResult);
-lastResult = operate(multiply, 3,2);
+lastResult = operateIntermediary(add, 2, 4);
+lastResult = operateIntermediary(add, 5, lastResult);
+lastResult = operateIntermediary(multiply, 3,2);
 
 
 // -------------------  v.0.2  --------------------- //
