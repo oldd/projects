@@ -12,10 +12,13 @@ Version the second tag:
   * what has changed since the last version
   
 Version the third tag:  
-* c-v code for v0.1 in a js file  
+* c-v code for v0.1 in a js file    
+* in a separate file have all of your other javascript.  onclicks, dom manipulations, ...  
 * index.html  
 * css  
-* specs for calc and dom scripts - md  
+* specs for calc  
+* specs for dom code.  Do your best here, it's trickier.  
+  * keep in mind _higher order functions_ from testing.  functions can take other functions as arguments.  nested specs!  
 * readme - md  
   * what it does  
   * what has changed since the last version
