@@ -32,7 +32,10 @@ _**Extra Super Challenge**_:
     
 * [better than i can do](https://github.com/tivrama/DataStructures)
 * [Some examples for this project](https://github.com/nzakas/computer-science-in-javascript/tree/master/data-structures)  
-* [examples, this project and beyond](https://github.com/mgechev/javascript-algorithms/tree/master/src/data-structures)
+* [examples, this project and beyond](https://github.com/mgechev/javascript-algorithms/tree/master/src/data-structures)  
+* [itsy bitsy](https://github.com/thejameskyle/itsy-bitsy-data-structures)  
+* [Buckets, a giant library](http://mauriciosantos.github.io/Buckets-JS/)
+* [google it](https://www.google.be/search?client=safari&rls=en&dcr=0&q=javascript+data+structures+github&oq=javascript+data+structures+github&gs_l=psy-ab.3..0.1236.2447.0.2588.7.7.0.0.0.0.73.493.7.7.0....0...1.1.64.psy-ab..0.7.490...0i22i30k1.0.ntymabpWP3Q)
 
 
 
