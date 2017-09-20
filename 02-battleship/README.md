@@ -2,10 +2,13 @@
 
 Learning Objective - Develop user stories from the front backwards: 
 1. Select a user story
-2. Add the necessary buttons/fields/forms to the view (to the HTML)
-3. Write a controller method for that interface
-4. Write the model method for that controller method (if necessary)
-5. write the view method for that controller method (if necessary)
+2. Create a branch for that story  
+3. Add the necessary buttons/fields/forms to the view (to the HTML)
+4. Write a controller method for that interface
+5. Write the model method for that controller method (if necessary)
+6. write the view method for that controller method (if necessary)
+7. Test that story  
+8. Merge that branch to master  
 
 This assumes you have already decided on user stories and decided on a development schedule. 
 We've done that for you, all you have to do is build them one at a time.  
