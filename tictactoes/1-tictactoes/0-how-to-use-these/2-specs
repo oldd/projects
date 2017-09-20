@@ -1,7 +1,7 @@
 calcFancy: object
 	PROPERTIES: 1
 		operations: object
-			INITIALIZED: addition and subtraction objects
+			INITIALIZED: addition and subtraction OPERATION OBJECTS.
 			PURPOSE: easy-access storage for the calc's functionalities
 	METHODS: 3
 		addOperation: function
