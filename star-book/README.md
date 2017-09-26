@@ -1,5 +1,14 @@
 # Welcome to the *book series of projects.  
-  
+___
+Learning objectives:   
+* MVC  
+* Model objects and data modeling  
+* front->back development  
+* feature/userstory based development schedule  
+* asynchronous and callbacks  
+* git/hub
+
+___
 This series is dedicated to data relations.  Each of the 4 steps introduces on of the 4 major data relations: 
 
 0. None-to-None  
