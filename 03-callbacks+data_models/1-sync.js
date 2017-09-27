@@ -1,5 +1,5 @@
 var data_model_array = {
-	db: // array
+	db: // array of objects
 	create(new_object) {
 		// assigns a unique ID to each object
 		//   once an ID has been used for one object, it can never be used for another
@@ -19,6 +19,6 @@ var data_model_array = {
 };
 
 var data_model_object = {
-	db: // object 
+	db: // object of objects
 	// ...
 }
