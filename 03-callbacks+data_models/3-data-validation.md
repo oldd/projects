@@ -37,8 +37,12 @@ Let's give our model a generalized description of which objects are acceptable a
     * This method is what's called a _helper method_.  The idea behind helper methods is that they help the object do it's job but they don't add to the object's "public persona". ie. You'll never call it directly from anywhere else in your application.  JS has no way to enforce this, you have to.
     * You may have already used a helper method and not known it.  Did you ever one of your view objects any method the controller doesn't call directly?  For example to draw a header to your battleship game?  Then you've made a helper method.
 * _GET_ and _SET_ methods: 
-    * For getting and setting the schema property.
-
+    * For getting and setting the schema property.  
+    
+Some Exercises:  
+* [1](https://github.com/EliumAcademy/ExercisePlatform/blob/master/app/course/week1/day5/exercise2/description.md)  
+* [2](https://github.com/EliumAcademy/ExercisePlatform/blob/master/app/course/week1/day5/exercise3/description.md)  
+* [3](https://github.com/EliumAcademy/ExercisePlatform/blob/master/app/course/week1/day5/exercise4/description.md)  
 
 
 Get to it
