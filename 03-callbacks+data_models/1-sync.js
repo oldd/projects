@@ -9,7 +9,7 @@ var data_model_array = {
 	read(entry_id) {
 		return // object associated with that id
 	},
-	update(entry_id, new_value) {
+	update(entry_id, key_to_change, new_value) {
 		// replace said entry with said value
 	},
 	remove(entry_id) {
