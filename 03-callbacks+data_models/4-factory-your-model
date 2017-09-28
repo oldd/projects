@@ -11,3 +11,9 @@ Create a factory that returns copies of your data model:
  After this step you are ready to move on to *Book.  The rest of this project is optional.
  
  challenge:  use the constructor design pattern to create model objects that inherit their methods.
+ ```js
+ function constructor(schema, name) {
+ 
+   };
+ 
+ ```
