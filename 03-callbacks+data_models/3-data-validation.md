@@ -39,7 +39,8 @@ Let's give our model a generalized description of which objects are acceptable a
 * _GET_ and _SET_ methods: 
     * For getting and setting the schema property.  
     
-Some Exercises:  
+Some Exercises:
+* [conditional checks](https://github.com/jankeLearning/content-code/tree/master/Week%2001/conditionalChecks)    
 * [1](https://github.com/EliumAcademy/ExercisePlatform/blob/master/app/course/week1/day5/exercise2/description.md)  
 * [2](https://github.com/EliumAcademy/ExercisePlatform/blob/master/app/course/week1/day5/exercise3/description.md)  
 * [3](https://github.com/EliumAcademy/ExercisePlatform/blob/master/app/course/week1/day5/exercise4/description.md)  
