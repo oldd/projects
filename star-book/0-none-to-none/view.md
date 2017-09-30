@@ -2,7 +2,7 @@ IEW.JS:  all funcitonality connected to making something visible on screen (the 
   * VIEW: object
     * METHODS: minimum 2
       * HOME: 
-        * ARGS: 0
+        * ARGS: whatever it takes to draw the home page
         * RETURN: undefined
         * BEHAVIOR: draws the home page
       * PROFILE: 
