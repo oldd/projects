@@ -9,7 +9,7 @@ The objective of this project is to drop a few advanced techniques into one app.
 * task runners
 * es6 -> es5 conversion
 * closure, execution context
-* Classes
+* factories
 ___
 
 ### Third-Party APIs
