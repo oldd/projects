@@ -6,3 +6,4 @@ elements of group development method
 	agile/scrum
 	builtin github tools
 	final product repo
+	feature branches, iteration versions
