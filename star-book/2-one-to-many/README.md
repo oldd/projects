@@ -23,7 +23,8 @@ on a profile page a user can ...
     * if the thumbnail is deleted, your application should auto-generate an anonymous thumbnail for this profile to display on 'home' - all main profiles should be accessible
 * view all statuses posted from this profile
 * create a new status 
-* NOT modify or delete old statuses
+* delete old statuses  
+  * if deleted, remove that status' id from the user data entry  
 
 If a thumbnail is anonymous and it's profile is deleted, delete the thumbnail.  ie. we don't want any anonymous thumbnails that point nowhere.  
 
