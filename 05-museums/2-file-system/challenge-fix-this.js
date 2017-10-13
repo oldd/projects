@@ -26,16 +26,16 @@ http.createServer(function (req, res) {
     console.log(`${req.method} ${req.url}`);
     // parse URL
     const parsedUrl = url.parse(req.url);
-    console.log(parsedUrl)
+    //console.log(parsedUrl)
     // extract URL path
     let pathname = `.${parsedUrl.pathname}`;
-    console.log(pathname)
+    //console.log(pathname)
 
     switch (pathname) {
         case './':
             pathname = __dirname + '/public/home.html'
             break;
-        case './tate/':
+        case './tate':
             pathname = __dirname + '/public/tate.html'
         case './tate/landscape/landscape_a.jpg':
             pathname = __dirname + '/paintings/tate/landscape/landscape_a.jpg'
