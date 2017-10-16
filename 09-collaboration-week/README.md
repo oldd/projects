@@ -18,19 +18,22 @@ roles - everyone develops, everyone write and push their own tests, everyone use
 * tool maker?
 
 by friday:
-* choose projects and groups, set up group repo
-
+* choose projects and groups, set up group repo  
+  
 by monday:
-* stories (2-3 manageable ones), mock ups, specs, schemas, ... all pushed
+* practice the group process individually   
 
 by tuesday:
-* throw-away pilot finished, all pushed
+* stories (2-3 manageable ones), mock ups, specs, schemas, ... all pushed
 
 by wednesday:
-* refactored - stories (2-3 manageable ones), mock ups, specs, schemas, ... all pushed
+* throw-away pilot finished, all pushed
 
 by thursday:
-* working proto of finished app ... all pushed
+* refactored - stories (2-3 manageable ones), mock ups, specs, schemas, ... all pushed
 
 by friday:
+* working proto of finished app ... all pushed
+
+weekend:
 * fully deployed project: documentation, tested, full repo, ... all pushed
