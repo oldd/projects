@@ -71,7 +71,9 @@ Your app will have these objects:
 * status_model
 * relationship_model
 * view
-* controller
+* controller  
+* logic  
+* handler  
 
 The relationship_model will have to have a 'findBy' method that allows you to search for relationships by field value: 
 * ARGS: 2

@@ -52,5 +52,7 @@ Your app will have these objects:
 * thumbnail_model
 * status_model
 * view
-* controller
+* controller  
+* handler  
+* logic
 
