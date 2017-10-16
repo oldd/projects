@@ -28,4 +28,6 @@ Your app will have these objects:
 * main_model
 * thumbnail_model
 * view
-* controller
+* controller  
+* handler  
+* logic
