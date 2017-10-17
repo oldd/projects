@@ -3,4 +3,3 @@ You may have noticed your Model, View, Routes and Controller files are getting p
 
 With Micro-Services architecture what you have is a collection of mini MVC applications, each one a completely self-contained unit that can be required into your app.js file and combined however you want.  
 
-The other large change 
