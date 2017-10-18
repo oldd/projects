@@ -10,11 +10,13 @@ Today we form groups and choose projects
 * if you don't have a project you can choose one to work on  
 * each group will have 3-5 people
 
-Required Readings
+Homework:  
 * Collaborative Development 
   * [Mythical Man Month wikipedia](https://en.wikipedia.org/wiki/The_Mythical_Man-Month).  
 * User-Focused Development
   * [Don't make me think](http://ptgmedia.pearsoncmg.com/images/9780321965516/samplepages/0321965515.pdf).  
+* Process  
+  * [study this](link to the process markdown)
 
   
   

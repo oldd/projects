@@ -15,25 +15,46 @@ roles - everyone develops, everyone write and push their own tests, everyone use
 * project manager - scope of project, user focus, schedule, deadline
 * architect - technical reference point
 * testers - between pilot and real deal, a full series of user tests and real tests are implemented.
-* tool maker?
+* tool maker?  
+role playing  
+* defender of the user  
+* defender of the computer  
+* defender of the developer  
+* defender of the development
 
-by friday:
-* choose projects and groups, set up group repo  
-  
-by monday:
-* practice the group process individually   
-
-by tuesday:
-* stories (2-3 manageable ones), mock ups, specs, schemas, ... all pushed
-
-by wednesday:
-* throw-away pilot finished, all pushed
-
-by thursday:
-* refactored - stories (2-3 manageable ones), mock ups, specs, schemas, ... all pushed
-
-by friday:
-* working proto of finished app ... all pushed
-
-weekend:
-* fully deployed project: documentation, tested, full repo, ... all pushed
+* Friday Before
+  * prepare your workspace - empty repos, roles, ...
+  * define the scope of our project, come up with user stories
+  * decide the tools and libraries.  react? passport strategies? build tools?
+  * This project should be something any of you could build alone in a day or two
+  * focus of next week is collaboration, not coding
+* Monday
+  * create a 'dependency tree' of stories
+  * select an order for features based on the chart
+  * plan specs for each feature
+  * write tests
+  * test your code
+  * push your code
+* Tuesday  
+  * assemble and test the app
+  * hold hands and discuss  
+  * plan how this could be done better tomorrow
+  * coffee break
+* Wednesday
+  * create a new 'dependency tree' of stories
+  * select a new order for features based on the chart
+  * plan new specs for each feature
+  * write new tests
+  * test your new code
+  * push your new code
+* Thursday
+  * assemble and test the new app
+  * hold hands and discuss the new app 
+  * plan how this could have been done better
+  * coffee break
+* Friday
+  * finishing touches and bugs
+  * polish repository
+  * complete documentation
+  * make a landing page
+  * fully deployed
