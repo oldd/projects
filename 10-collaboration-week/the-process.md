@@ -22,7 +22,7 @@ This is the procedure you will follow as a group durring group project week. Fam
     * mvc? apps/components? microservices? spa? ssr?  
     * choose the one that makes most sense for your product, development, and maintenance. 
     * if done well, a user shouldn't know the difference (unless it's slow or crashes)  
-  * plan specs for each feature
+  * plan specs for each feature (and tests depending on strategy)  
   * __while feature in list__
     * write tests
     * test your code
