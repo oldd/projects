@@ -1,4 +1,15 @@
-## The Development Process
+## The Development Process  
+___  
+### Skills  
+* specs  - read and write  
+* unit tests, testing paradigms - tdd, bdd  
+* the user perspective  
+* computer audience 
+* developer audience  
+* plan ahead and stick to schedule  
+* communication - constantly with fellow devs  
+* average performance outweighs peak performance  
+___
 This is the procedure you will follow as a group durring group project week. Familiarize yourselves with it now:
 
 * For release in product
