@@ -9,6 +9,8 @@ ___
 * plan ahead and stick to schedule  
 * communication - constantly with fellow devs  
 * average performance outweighs peak performance  
+___  
+roles: mmh, mine, agile  
 ___
 This is the procedure you will follow as a group durring group project week. Familiarize yourselves with it now:
 
