@@ -27,7 +27,7 @@ This is the procedure you will follow as a group durring group project week. Fam
   * plan specs for each feature (and tests depending on strategy)  
   * prepare mockups  
   * __while feature in list__  
-    * write tests
+    * write tests (if you haven't yet)  
     * test your code
     * push your code
     * assemble and test the feature
