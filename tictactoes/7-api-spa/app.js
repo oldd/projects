@@ -7,9 +7,9 @@ var path = require('path');
 appStatic.use(express.static(path.join(__dirname, './public')));
 
 // your tictactoe game talks to localhost 3001 for its data
-var playerAPI = require('./routes/playerRoutes');
+var playerAPI = require('./api-services/players');
 appData.use(playerAPI);
 
-var boardAPI = require('./routes/boardRoutes');
+var boardAPI = require('./api-services/board');
 appData.use(boardAPI);
 
